@@ -1,10 +1,12 @@
 import React from "react";
-
+import TopBar from "./components/topBar";
+import SideBar from "./components/sidebar";
 function App() {
   return (
-    <div className="App">
-      <h1>Web Builder</h1>
-    </div>
+    <React.Fragment>
+      <TopBar />
+      <SideBar />
+    </React.Fragment>
   );
 }
 
